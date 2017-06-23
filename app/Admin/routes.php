@@ -10,5 +10,6 @@ Route::group([
     'middleware'    => ['web', 'admin'],
 ], function (Router $router) {
     $router->get('/', 'HomeController@index');
-
+    $router->resource('users', UserController::class);
+    $router->resource('movie', MovieController::class);
 });

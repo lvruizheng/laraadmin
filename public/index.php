@@ -6,6 +6,8 @@
  * @package  Laravel
  * @author   Taylor Otwell <taylor@laravel.com>
  */
+ 
+ require __DIR__.'/../path.php';
 
 /*
 |--------------------------------------------------------------------------
