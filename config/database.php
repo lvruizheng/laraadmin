@@ -66,6 +66,19 @@ return [
             'prefix' => '',
             'schema' => 'public',
         ],
+        
+        'mysql3' => [
+            'driver' => 'mysql',
+            'host' => '127.0.0.1',
+            'port' => '3306',
+            'database' => 'lrz.dzkc.com',
+            'username' => 'root',
+            'password' => 'root',
+            'unix_socket' => env('DB_SOCKET', ''),
+            'charset' => 'utf8',
+            'prefix' => '',
+            'schema' => 'public',
+        ],
 
         'pgsql' => [
             'driver' => 'pgsql',
